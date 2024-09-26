@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #000000;
+        }
+        th {
+            background-color: hsl(60, 95%, 55%);
+        }
+        td {
+            background-color:white;
+        }
+        td.home-column {
+            background-color: #f39af3;
+            font-weight: bold;
+            
+           
+        }
+        /* Custom color for the first column in tbody */
+        tbody td:first-child {
+            background-color: #c2c7c7; /* Light blue color */
+            font-weight: bold; /* Optional: Make text bold */
+        }
+
+    </style>
+</head>
+<body>
+
+    
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="8">Final Examination Schedule Fall 2008</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th></th>
+                <th>Monday Dec.15</th>
+                <th>Tuesday Dec.16</th>
+                <th>Wednesday Dec.17</th>
+                <th>Thursday Dec.18</th>
+<td rowspan="6" class="home-column">HOME</td>
+
+            </tr>
+            <tr>
+                <td>8:00 a.m.</td>
+                <td>Data Structures</td>
+                <td>Algorithms</td>
+                <td>Computer Networks</td>
+                <td>Database systems</td>
+                
+            </tr>
+            <tr>
+                <td>10:00 a.m.</td>
+                <td>Operating Systems</td>
+                <td>Artificial Intelligence</td>
+                <td>Software Engineering</td>
+                <td>Web Development</td>
+                
+            </tr>
+            <tr>
+                <td>1:00 p.m.</td>
+                <td>Machine Learning</td>
+                <td>Cyber Security</td>
+                <td>Mobile Computing</td>
+                <td>Human Computer Interactions</td>
+                
+                
+            </tr>
+            <tr>
+                <td>3:00 p.m.</td>
+                <td>Big Data Analytics</td>
+                <td>Cloud Computing</td>
+                <td>Parallel Computing</td>
+                <td>Computer Graphics</td>
+                
+            </tr>
+            
+        </tbody>
+    
+    </table>
+
+</body>
+</html>
